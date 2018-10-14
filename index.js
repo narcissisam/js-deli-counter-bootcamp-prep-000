@@ -17,7 +17,7 @@ function currentLine(katzDeliLine) {
     return 'The line is currently empty.';
   }
   else if (katzDeliLine.length >= 1) {
-    
-    return 'The line is currently ' +katzDeliLine.shift()+'.';
+    whil
+    return 'The line is currently 'katzDeliLine'.';
   }
 }
