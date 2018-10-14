@@ -12,4 +12,6 @@ function nowServing(katzDeliLine) {
     return 'Currently serving ' +katzDeliLine.shift()+'.';
   }
 }
-function 
+function currentLine(katzDeliLine) {
+  return 'The line is currently'+
+}
