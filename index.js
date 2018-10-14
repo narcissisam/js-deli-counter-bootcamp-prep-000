@@ -13,7 +13,7 @@ function nowServing(katzDeliLine) {
   }
 }
 function currentLine(katzDeliLine) {
-   for (i = 0; i < katzDeliLine.length ; i++) {
+   for (let i = 0; i < katzDeliLine.length ; i++) {
       line.push(' '+[i+1] +katzDeliLine[i]);
     }
   if (katzDeliLine.length === 0) {
