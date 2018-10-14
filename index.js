@@ -18,7 +18,7 @@ function currentLine(katzDeliLine) {
   }
   else {
     for (i = 0; i < katzDeliLine.length ; i++) {
-      line.push('')
+      line.push(' '+i+1'.'+katzDeliLine[i])
     }
   }
 }
