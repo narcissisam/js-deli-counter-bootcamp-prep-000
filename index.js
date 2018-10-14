@@ -1,4 +1,4 @@
-function takeANumber(name, katzDeliLine) {
-  katzDeliLine.push(name);
-  return "Welcome $/name. You are number $/katzDeliLine.length in line."
+function takeANumber(name, array) {
+  array.unshift(name);
+  return "Welcome $/name. You are number ($array.length) in line."
 }
