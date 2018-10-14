@@ -10,6 +10,6 @@ function nowServing(katzDeliLine) {
   }
   else if (katzDeliLine.length >= 1) {
     return 'Currently serving ' +katzDeliLine[0]+'.';
-    delete
+    katzDeliLine.shift();
   }
 }
